@@ -43,7 +43,7 @@ module.exports = {
     */
 
     //disallow to be admin
-    req.body.isAdmin = false
+    // req.body.isAdmin = false
 
     //create new user
     const data = await User.create(req.body);
